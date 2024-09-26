@@ -6,7 +6,7 @@ import { GoogleLogin } from "@react-oauth/google";
 import { jwtDecode } from "jwt-decode";
 import axios from "axios";
 import { useCookies } from "react-cookie";
-import spinner from "../../components/spinner/spinner.svg";
+import spinner from "../../component/spinner/spinner.svg";
 import Loading from "../loading/Loading";
 
 export default function SignIn() {

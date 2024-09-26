@@ -17,18 +17,18 @@ export default function Footer() {
           className="w-1/3 flex items-center gap-4 font-bold text-[1.2em] md:text-[2em] min-w-fit"
         >
           <img src={logo} width={24} />
-          VINTAGE TIMEPIECE
+          DIMOND ALOHA
         </button>
         <p className="text-[0.6em]">
           Please contact{" "}
           <span className="opacity-70 underline">
-            vintagetimepiece00@gmail.com
+            DimondAloha00@gmail.com
           </span>{" "}
           for further information.
         </p>
       </div>
       <div className="text-[0.6em] text-white self-end">
-        Vintage Timepiece &copy;, 2024
+        DIMOND ALOHA &copy;, 2024
       </div>
     </footer>
   );

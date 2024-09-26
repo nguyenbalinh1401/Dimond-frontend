@@ -3,7 +3,7 @@ import { Input, message } from "antd";
 import spinner from "../spinner/spinner.svg";
 import darkSpinner from "../spinner/dark_spinner.svg";
 import emailjs from "@emailjs/browser";
-import { generateNumericAndUppercaseCode } from "../../assistants/generators";
+import { generateNumericAndUppercaseCode } from "../assistants/generators";
 import axios from "axios";
 
 export function EmailForm(props) {
